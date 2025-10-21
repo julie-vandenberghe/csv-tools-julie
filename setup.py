@@ -10,7 +10,7 @@ setup(
     description='filter and drop columns functionalities on csv files',
     long_description=open('README.md').read(),  # Reads the content of README.md
     long_description_content_type='text/markdown',  # Ensures correct rendering of Markdown
-    #url='https://github.com/...../nicolas_package',  # Project's URL (optional)
+    url='https://github.com/julie-vandenberghe/csv-tools-julie.git',  # Project's URL (optional)
     classifiers=[
         'Programming Language :: Python :: 3',  # Specify supported Python versions
         'License :: OSI Approved :: MIT License',  # Specify the license (you can choose different one)

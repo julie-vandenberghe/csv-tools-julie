@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Dossiers d'environnement virtuel
+venv/
+.env/
+.venv/
+
+# Fichiers de configuration d’environnement
+.envrc
+*.env
+
+# === Jupyter / Notebooks ===
+.ipynb_checkpoints/
+
+# === Logs & caches ===
+*.log
+*.tmp
+*.cache/
+.cache/
+*.bak
+
+# === IDE / éditeurs ===
+.vscode/
+.idea/
+*.swp
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Distribution / build ===
+build/
+dist/
+*.egg-info/

@@ -12,11 +12,11 @@ To run the tests, execute:
 ```bash
 python3 script_test_julie
 ```
+
 This script:
-- Creates sample CSV files for testing
-- Displays the original CSV in the terminal
-- Applies a filter on a column and displays the result
-- Joins two CSV files on a common key and displays the result
+- **Display a CSV** in the terminal (`display_csv`)
+- **Filter** rows based on a column value (`filter_csv`)
+- **Drop** one or multiple columns (`drop_columns_csv`)
 
 
 ## Project structure

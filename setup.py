@@ -4,7 +4,9 @@ setup(
     name='julie_package',  # Package name
     version='0.1',  # Version number
     packages=find_packages(),  # Automatically find and include all packages
-    install_requires=["pandas"],  # Package dependencies here
+    install_requires=[
+        "pandas>=2.0",
+    ],  # Package dependencies here
     author='Julie Vandenberghe',  
     author_email='julie.vandenberghe@lacatholille.fr',  
     description='filter and drop columns functionalities on csv files',
